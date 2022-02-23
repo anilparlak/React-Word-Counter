@@ -64,7 +64,7 @@ const Editor = () => {
       <div className="editor__link">
         <span>
           For Detailed Information{" "}
-          <a href="http://anilparlak.com/">Anıl Parlak</a>
+          <a href="http://anilparlak.com/" target="_blank">Anıl Parlak</a>
         </span>
       </div>
     </div>
