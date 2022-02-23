@@ -29,7 +29,7 @@ const Editor = () => {
             <h5 className="editor__title">FACEBOOK</h5>
             <div className="editor__social">
               <FacebookOutlinedIcon style={{ color: "#45619d" }} />
-              <span className="editor__count social">{250 - characters}</span>
+              <span className="editor__count facebook">{250 - characters}</span>
             </div>
           </div>
         </div>
@@ -38,7 +38,7 @@ const Editor = () => {
             <h5 className="editor__title">TWITTER</h5>
             <div className="editor__social">
               <TwitterIcon style={{ color: "#179cf0" }} />
-              <span className="editor__count social">{280 - characters}</span>
+              <span className="editor__count twitter">{280 - characters}</span>
             </div>
           </div>
         </div>
@@ -48,7 +48,7 @@ const Editor = () => {
             <h5 className="editor__title">GOOGLE</h5>
             <div className="editor__social">
               <GoogleIcon style={{ color: "#eb4132" }} />
-              <span className="editor__count social">{300 - characters}</span>
+              <span className="editor__count google">{300 - characters}</span>
             </div>
           </div>
         </div>

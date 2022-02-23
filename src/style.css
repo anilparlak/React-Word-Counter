@@ -96,16 +96,23 @@
     padding: 25px 0;
 }
 
-.social{
+.facebook,.twitter,.google{
     margin-left: 15px;
 }
-.social::after{
+.facebook::after,.twitter::after,.google::after{
     content: '/250';
     display: inline-block;
     margin-left: 0.125rem;
     color: #8A8B8C;
     font-size: 0.75rem;
     font-weight: 600;
+}
+
+.twitter::after{
+    content: '/280';
+}
+.google::after{
+    content: '/300';
 }
 
 .editor__content{
